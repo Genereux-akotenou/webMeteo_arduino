@@ -19,8 +19,8 @@ DHT dht(DHTPin, DHTTYPE);
 uint8_t LedPin = D1; 
 
 //Enter your wifi credentials
-const char *ssid = "BTHOTSPOT-6647";
-const char *password = "sh4d0w.n3t!256/B";
+const char *ssid = "your_wifi_ssid";
+const char *password = "sour_wifi_pass";
 
 //Web server on which we're going to save data
 String host = "http://ifri-meteo.herokuapp.com/iot_reader/index.php";
